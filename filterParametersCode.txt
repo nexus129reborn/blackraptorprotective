@@ -1,0 +1,9 @@
+// TODO: This line of code loads data into the 'DataSet1.Incident' table. You can move, or remove it, as needed.
+            this.IncidentTableAdapter.Fill(this.DataSet1.Incident);
+
+            ReportParameter[] Parameters = new ReportParameter[1];
+            Parameters[0] = new ReportParameter("RN", Convert.ToString(txtFilter.Text));
+
+            reportViewer1.LocalReport.SetParameters(Parameters);
+
+            this.reportViewer1.RefreshReport();

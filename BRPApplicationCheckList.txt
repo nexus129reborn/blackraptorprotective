@@ -1,0 +1,33 @@
+---BRP Application CheckList---
+
+Check For Updates Form
+======================
+
+Build code to allow the user to download an update when one becomes available on the server.
+And the Interface for the User to see what's happening.
+
+Client Form
+===========
+
+____________
+Incident Tab
+
+Offense section needs to be filled out with a Possible Gridview.
+Attachments Section needs code to allow for the two images to upload successfully to the server and download the images back down.
+
+____________
+
+____________
+Persons Tab
+
+Two gridvews need to be populated (thinking it was to let the user click on the individual to show data below)
+____________
+
+
+
+
+
+
+------------
+
+
